@@ -253,12 +253,14 @@ header {
 .KYLIE_JENNER_LIP_KIT_text {
    display: flex;
    align-items: center;
-   width: 420px;
+   width: 65%;
    font-size: 17px;
    font-family: "Gotham Pro Light";
    line-height: 30px;
    color: #333333;
-   margin: 170px 20px 0 100px;
+   position: absolute;
+   top: 30%;
+   left: 2%;
    
 }
 
@@ -273,8 +275,9 @@ header {
     color: #fff;
     font-size: 17px;
     line-height: 26px;
-    margin-top: 35px;
-    margin-left: 145px;
+    position: absolute;
+    top: 65%;
+    left: 5%;
    
 }
 
@@ -325,11 +328,12 @@ header {
 
 .container_2 h1 {
    display: flex;
-   margin-left: 20%;
+   position: absolute;
+   left: 20%;
    font-family: "Gotham Pro";
    color: #d4416a;
    font-size: 38px;
-   flex-wrap: wrap;
+   width: 20%;
   
   
 }
@@ -399,10 +403,11 @@ header {
     font-family: "Gotham Pro Light";
     text-align: center;;
     color: #fff;
+    position: absolute;
     font-size: 17px;
     line-height: 26px;
-    margin-top: 410px;
-    margin-left: 350px;
+    top: 20%;
+    left: 60%;
     flex-wrap: wrap;
    
 }
@@ -503,8 +508,152 @@ header {
    }
    
    .order_button_2 {
-      margin-top: 56%;
+      margin-top: 35%;
    }
    
    }
    
+
+
+
+@media (max-width: 1400px) {
+   
+  .container_2 span {
+    
+  top: 200px;
+  left: 70%
+    
+   
+}
+   
+   
+   
+   
+}
+
+
+@media (max-width: 320px) {
+   
+   .menu_1 {
+   display: none;
+}
+   
+   .phone-call {
+      display:flex;
+      justify-content: center;
+      flex-direction: row;
+      
+   }
+   
+   .phone-call-link {
+      font-size: 10px;
+      padding-left: 10px;
+   }
+   
+   
+   
+   .KYLIE_JENNER_LIP_KIT_title {
+   top: 1%;
+   left: -19px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: 23px;
+   line-height: 20px;
+   font-family: "Bebas Neue";
+   color: #333333;
+   }
+   
+   .container_main{
+      background: #f0ebe8;
+      overflow: visible;
+     
+}
+   
+   
+   .container_main_price{
+      left: -130px;
+       top: 70px;
+      
+   }
+   
+   .prise {
+      left: 5%;
+      top: 65px;
+   }
+   
+   
+   .KYLIE_JENNER_LIP_KIT_text {
+   display: flex;
+   text-align: center;
+   width: 30%;
+   font-size: 15px;
+   line-height: 25px;
+   top: 110%;
+   left: -2%;
+   
+   }
+   
+   .order_button {
+      top: 500px;
+      left: -65px;
+     
+   }
+   
+   
+   .container_main::after{
+      display: none;
+   }
+   
+   .container_2 h1 {
+   display: flex;
+   left: -5%;
+   top: 45%;
+   color: #d4416a;
+   font-size: 25px;
+   text-align: center;
+  
+  
+}
+   
+   
+   .container_2 p {
+   display: flex;
+   font-size: 15px;
+   font-family: "Gotham Pro Light";
+   flex-wrap: wrap;
+   line-height: 25px;
+   color: #333333;
+   position: absolute;
+   max-width: 790px;
+   top: 110%;
+   left: 17%;
+   text-align: center;
+  
+   
+  
+}
+   
+   
+   .order_button_2 {
+      top: 1120px;
+      left: 6px;
+     
+   }
+   
+   
+   .circle_picture {
+    width: 250px; 
+    height: 250px;
+    margin-top: 360px;
+    margin-left: 70px;
+}
+
+.circle_picture img {
+    width: 215px;
+   
+   
+    
+}
+      
+}
