@@ -445,11 +445,17 @@ header {
    }
    
    
-     .phone-call-link {
-      order: 3;
+     .phone-call {
+      order: 2;
       
     
    }
+   
+   
+   .menu {
+      order: 3;
+   }
+   
    
    .container_main img{
        right: 3%;   
@@ -463,6 +469,7 @@ header {
    
    .logo {
       margin-left: -2%;
+      order: 1;
    }
    
    
