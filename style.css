@@ -532,7 +532,7 @@ header {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
    
    .menu_1 {
    display: none;
@@ -554,7 +554,7 @@ header {
    
    .KYLIE_JENNER_LIP_KIT_title {
    top: 1%;
-   left: -19px;
+   left: 1px;
    display: flex;
    justify-content: center;
    text-align: center;
@@ -596,7 +596,7 @@ header {
    
    .order_button {
       top: 500px;
-      left: -65px;
+      left: -45px;
      
    }
    
@@ -637,7 +637,7 @@ header {
    
    .order_button_2 {
       top: 1120px;
-      left: 7px;
+      left: 35px;
      
    }
    
