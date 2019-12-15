@@ -329,11 +329,11 @@ header {
 .container_2 h1 {
    display: flex;
    position: absolute;
-   left: 20%;
+   left: 40%;
    font-family: "Gotham Pro";
    color: #d4416a;
    font-size: 38px;
-   width: 20%;
+   width: 50%;
   
   
 }
@@ -406,7 +406,7 @@ header {
     position: absolute;
     font-size: 17px;
     line-height: 26px;
-    top: 20%;
+    top: 100%;
     left: 60%;
     flex-wrap: wrap;
    
@@ -508,7 +508,7 @@ header {
    }
    
    .order_button_2 {
-      margin-top: 35%;
+      margin-top: 5%;
    }
    
    }
@@ -526,10 +526,24 @@ header {
    
 }
    
+}
+
+
+
+
+@media (max-width: 1024px) {
+   
+   
+  
    
    
    
 }
+
+
+
+
+
 
 
 @media (max-width: 360px) {
